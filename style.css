@@ -1,0 +1,89 @@
+/* Estilos para las imágenes en los enlaces */
+nav ul li a img {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: 30px; /* Mantiene la proporción de aspecto */
+}
+/* Alinear los elementos de la lista horizontalmente */
+nav ul {
+    display: flex; /* Alinea los elementos horizontalmente */
+    justify-content: left; /* Centra los elementos dentro del nav */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+    list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+/* Añadir espaciado entre los elementos de la lista */
+nav ul li {
+    margin: 0 10px; /* Ajusta el espaciado entre los íconos */
+}
+/* Centrar el título */
+header h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: 'Cinzel', serif; /* Usa una fuente de Google Fonts similar a fuentes dignas */
+    font-size: 3rem; /* Ajusta el tamaño según sea necesario */
+    color: #def913; /* Cambia el color según tus preferencias */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+/* Asegúrate de que el header esté centrado */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Ajusta según sea necesario */
+}
+/* Estilos para el título */
+header h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: 'Cinzel', serif; /* Usa una fuente de Google Fonts similar a fuentes dignas */
+    font-size: 3rem; /* Ajusta el tamaño según sea necesario */
+    color: #FFD700; /* Color amarillo para el texto */
+    -webkit-text-stroke: 2px #000000; /* Grosor negro en los bordes */
+    text-stroke: 2px #000000; /* Grosor negro en los bordes */
+    margin-top: 20px; /* Espaciado superior */
+    font-weight: bold; /* Asegura que el texto sea lo suficientemente grueso */
+}
+
+
+/*  Codigo de el boton de wsp 
+    objetivo: dar un boton vistoso para el contacto inmediato al wsp
+*/
+#boton_wsp {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #c90808;
+    background-color: #25D366; /* Color verde de WhatsApp */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    position: absolute; /* O puedes usar 'fixed' si quieres que el elemento permanezca en su posición al hacer scroll */
+    right: 0; /* Posiciona el elemento a la derecha */
+    
+    
+}
+
+#boton_wsp:hover {
+    background-color: #128C7E; /* Color más oscuro para el hover */
+}
+
+
+
+
+
+
+/*sobre roboto::
+    Roboto es la fuente que sera utilizada en la paguina
+    Esta asociada a la clase de Body 
+    aumente aca el tmaño de la fuente 
+*/  
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2em;
+}
